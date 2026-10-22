@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hanzala – Computer Science Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">Hanzala</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <h1>I build mobile apps and cloud-backed software.</h1>
+      <p>Third-year Computer Science student at COMSATS University Islamabad, Abbottabad Campus.</p>
+      <a class="button" href="#projects">See my projects</a>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>I study Computer Science and spend most of my time building apps with Flutter and Firebase. I like projects where a design idea turns into something people can actually use. I hold a Huawei ICT Competition Cloud Track certificate and I'm learning DevOps practices such as Git, GitHub and automated deployment.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="chips" role="group" aria-label="Filter skills">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="app">Apps</button>
+        <button class="chip" data-filter="web">Web and backend</button>
+        <button class="chip" data-filter="lang">Languages</button>
+      </div>
+      <ul class="skill-list">
+        <li data-type="app">Flutter</li>
+        <li data-type="app">Firebase</li>
+        <li data-type="web">REST APIs</li>
+        <li data-type="web">JavaScript</li>
+        <li data-type="lang">Python</li>
+        <li data-type="lang">C#</li>
+        <li data-type="web">.NET</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <article class="project">
+        <h3>Milk Tracking App</h3>
+        <p>A Flutter app for tracking milk records, built for my Human-Computer Interaction course and analysed using the PACT framework.</p>
+      </article>
+      <article class="project">
+        <h3>DomainCraft AI</h3>
+        <p>A website builder that generates sites for a specific domain. I helped on this HCI course project.</p>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        <a href="https://github.com/hanzala261">GitHub</a> and
+        <a href="https://linkedin.com/in/hanzala-abid">LinkedIn</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Hanzala. Built for CSC418 Lab Assignment 01.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
